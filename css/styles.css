@@ -1,6 +1,92 @@
 body {
-  font-family: roboto;
-  font-weight: 400;
-  font-style: normal;
+  font-family: roboto, raleway;
+  color: #757575;
+}
+/* Text-colors-sheet */
+:root {
+  --contact-color--: #757575;
+  --mark-color--: #2196f3;
+  --on-light-fone--: #212121;
+  --on-dark-fone--: #ffffff;
+  --dark-fone--: #2f303a;
+}
+
+/*head-content-styles*/
+/*logo styles*/
+.logo-link {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--mark-color--);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-part {
+  color: var(--on-light-fone--);
+}
+
+/*head-link-list*/
+.head-link {
+  font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--on-light-fone--);
+  text-decoration: none;
+}
+.head-link-on {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mark-color--);
+  text-decoration: none;
+}
+
+/*head-contact-list*/
+.head-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--contact-color--);
+  text-decoration: none;
+}
+.head-contacts a:hover {
+  color: var(--mark-color--);
+}
+.head-contacts a:focus {
+  color: var(--mark-color--);
+}
+
+/*site-title-section-styles*/
+.title-section {
+  background-color: var(--dark-fone--);
+}
+.site-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--on-dark-fone--);
+}
+.order-buttons {
+  width: 200px;
+  height: 50px;
+  background: var(--mark-color--);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--on-dark-fone--);
+  border: none;
+  outline: none;
 }
