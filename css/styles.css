@@ -79,14 +79,17 @@ body {
   background: var(--mark-color--);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.87px;
-  display: flex;
+  line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--on-dark-fone--);
   border: none;
   outline: none;
+  background: var(--mark-color--);
 }
