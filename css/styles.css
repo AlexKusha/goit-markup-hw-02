@@ -126,7 +126,6 @@ body {
   text-transform: uppercase;
 }
 .qualities-discription {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -162,7 +161,6 @@ body {
   color: var(--dark-txt--);
 }
 .profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -186,7 +184,6 @@ body {
 }
 .adress-link {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -198,7 +195,6 @@ body {
 }
 .footer-links {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -248,7 +244,6 @@ body {
   color: var(--dark-txt--);
 }
 .project-types {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
