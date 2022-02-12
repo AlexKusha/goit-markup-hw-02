@@ -15,10 +15,18 @@
 body {
   font-family: var(--main-font--);
   color: var(--dominate-txt-color--);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--light-txt--);
 }
 /* Output-styles*/
 .link {
   text-decoration: none;
+  cursor: pointer;
+}
+.link:hover,
+.link:focus {
+  color: var(--mark-color--);
 }
 .list {
   list-style-type: none;
@@ -27,9 +35,6 @@ body {
   visibility: hidden;
 }
 /*header-styles*/
-.header-section {
-  background-color: var(--light-txt--);
-}
 /*logo-styles*/
 .logo-link {
   font-family: Raleway;
@@ -37,7 +42,6 @@ body {
   font-size: 26px;
   line-height: 1.2;
   color: var(--mark-color--);
-  letter-spacing: 0.03em;
 }
 .logo-part {
   color: var(--dark-txt--);
@@ -46,36 +50,24 @@ body {
 /*head-link-list*/
 .head-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--dark-txt--);
 }
 .head-link-on {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--mark-color--);
-}
-.head-link:hover,
-.head-link:focus {
   color: var(--mark-color--);
 }
 
 /*head-contact-list*/
 .head-contacts a {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--dominate-txt-color--);
 }
-.head-contacts a:hover,
-.head-contacts a:focus {
-  color: var(--mark-color--);
-}
-
 /*site-title-section-styles*/
 .title-section {
   background-color: var(--dark-fone--);
@@ -120,15 +112,11 @@ body {
 .qualities {
   color: var(--dark-txt--);
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .qualities-discription {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 /* duty-section */
 .duty-title {
@@ -136,7 +124,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--dark-txt--);
 }
 
@@ -149,7 +136,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--dark-txt--);
 }
 .member {
@@ -157,14 +143,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--dark-txt--);
 }
 .profession {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /* footer-section*/
 .footer-section {
@@ -177,27 +161,18 @@ body {
   font-size: 26px;
   line-height: 1.2;
   color: var(--mark-color--);
-  letter-spacing: 0.03em;
 }
 .footer-logo-secondary {
   color: var(--light-txt--);
 }
 .adress-link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--light-txt--);
-}
-.adress-link:hover,
-.adress-link:focus {
-  color: var(--mark-color--);
 }
 .footer-links {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--dominate-txt-color--);
 }
 .footer-links:hover,
@@ -220,7 +195,6 @@ body {
   line-height: 1.62;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.03em;
   background: var(--gray-fone--);
   color: var(--dark-txt--);
   border: none;
@@ -246,6 +220,5 @@ body {
 .project-types {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--dominate-txt-color--);
 }
