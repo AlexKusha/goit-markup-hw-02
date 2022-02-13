@@ -202,9 +202,7 @@ body {
   cursor: pointer;
 }
 .filter-button:focus,
-.filter-button:hover {
-  border: 1px solid var(--dark-txt--);
-}
+.filter-button:hover,
 .filter-button:active {
   background: var(--mark-color--);
   color: var(--light-txt--);
